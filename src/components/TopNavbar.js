@@ -19,7 +19,7 @@ const TopNavbar = () => {
                 </Typography> &emsp; &emsp;
                 <BsTelephone style={{ color:"green", fontSize:"16px" }} />&nbsp;
                 <Typography sx={{ color: "#fff", fontSize: "16px" }}>
-                    info@bhoomitechzone.com
+                    +91-911111
                 </Typography> &emsp; &emsp;
             </Box>
             <Box sx={{gap:"15px", display:"flex"}}>

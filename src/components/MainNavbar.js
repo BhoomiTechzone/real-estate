@@ -70,7 +70,7 @@ const MainNavbar = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div>
+            <div className='parent-absolute'>
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <h1 style={{ color: "white", marginTop: "12rem" }}>Find Your Next Perfect Place To Live</h1>
                 </div>
@@ -92,18 +92,18 @@ const MainNavbar = () => {
                         ))}
                     </ButtonGroup>
                 </div>
-                <div style={{ display:"flex", flexWrap:"wrap", justifyContent:"space-between" ,backgroundColor:"white", padding:"10px", margin:"2rem" }}>
-                  <div>
+                <div style={{ display:"flex", flexWrap:"wrap",gap:"10px", backgroundColor:"white", padding:"10px", margin:"2rem" }}>
+                  <div className='navbar-inputContainer'>
                     <input type='text' placeholder='Enter'/>
                   </div>
-                  <div>
+                  <div className='navbar-locationselect'>
                     <select>
                       <option>Select Location</option>
                       <option value="noida">Noida</option>
                       <option value="delhi">Delhi</option>
                     </select>
                   </div>
-                  <div>
+                  <div className='navbar-propertyselect'>
                     <select>
                       <option>Property Type</option>
                       <option value="Businee">Businee</option>
@@ -113,8 +113,38 @@ const MainNavbar = () => {
                       <option>Re</option>
                     </select>
                   </div>
-                  <div>
+                  <div className='navbar-propertybutton'>
                     <button>Search Property</button>
+                  </div>
+                </div>
+                <div className='overview'>
+                  <div>
+                    <h1>home</h1>
+                    <div>
+                      <h2>3389</h2>
+                      <p>Total Properties</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h1>home</h1>
+                    <div>
+                      <h2>389</h2>
+                      <p>Happy Clients</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h1>home</h1>
+                    <div>
+                      <h2>4389</h2>
+                      <p>Successfull Order</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h1>home</h1>
+                    <div>
+                      <h2>123</h2>
+                      <p>Our Teams</p>
+                    </div>
                   </div>
                 </div>
             </div>

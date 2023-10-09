@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainoverviewcontainer{
+    background-color: aliceblue;
+    padding: 6rem 0px;
+    text-align: center;
+}
+
+.overviewcontainer{
+    margin-top: 6rem;
+}
+
+
+
+.overviewcontainerdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.overviewcontainerdetails > div{
+    height: 154px;
+    width: 500px;
+    border-left: 4px solid green;
+    border-radius: 10px;
+}
+
+.first-container div img{
+    padding-left: 20px;
+}
+
+.first-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.first-container-details{
+    width: 350px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
